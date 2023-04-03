@@ -66,7 +66,7 @@ def get_final_layer_norm(
     return top_level_lns[-1] if top_level_lns else None
 
 
-def get_transformer_layers(model: th.nn.Module) -> tuple[str, th.nn.ModuleList]:
+def get_transformer_layers(model: th.nn.Module):# -> tuple[str, th.nn.ModuleList]:
     """Get "the" list of transformer layers from a model.
 
     This is operationalized as the unique `nn.ModuleList` that contains
