@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "tuned-lens"
 description = "Tools for understanding how transformer predictions are built layer-by-layer"
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.8"
 keywords = ["nlp", "interpretability", "language-models", "explainable-ai"]
 license = {text = "MIT License"}
 dependencies = [
